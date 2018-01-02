@@ -1,5 +1,5 @@
 # vim: set ft=dockerfile:
-FROM debian:jessie
+FROM debian:stretch-slim
 # Author with no obligation to maintain
 MAINTAINER Paul Tötterman <paul.totterman@iki.fi>
 RUN echo 'APT::Install-Recommends "false";' > /etc/apt/apt.conf.d/00InstallRecommends && \
